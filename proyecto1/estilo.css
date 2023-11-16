@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2? family= Lexend+Deca:wght@200 & display=swap');
+
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600&family=Lexend+Deca:wght@200&display=swap');
+
+
+
+
+
+ /* Color de fondo cuadro..............................................................*/
+.caja1{ 
+    background-color: hsl(31, 77%, 52%);
+
+   }
+   .caja1,.caja2,.caja3{
+                                   width: 250px;  /* ancho*/
+                                  height: 400px;  /* altura.*/
+ }
+
+ .caja2{ 
+    background-color: hsl(184, 100%, 22%);
+ }
+ .caja3{ 
+    background-color: hsl(179, 100%, 13%);
+ }
+
+ /*............................................................................. */
+
+
+ /* Color de letra de .*/
+
+ /* Texto .*/
+ h5{ 
+   color: white;
+}
+
+ /* Titulo .*/
+h1{ 
+   color: white; 
+}
+
+/* Tipo de LETRA ----------------------------------------------------.*/
+
+
+/* Texto.Estilo de letra */
+h5{ 
+   font-family: 'Lexend Deca', sans-serif;  
+   font-weight:500 ;
+  
+}
+
+/* Titulo.Estilo de letra */
+h1{ 
+   font-family: 'Big Shoulders Display', sans-serif;
+   font-weight:600 ;
+}
+
+h5{ 
+padding-left: 50px;   /* izquierda.*/
+  padding-right: 50px;  /* derecha*/
+}
+
+/* Ajuste de la tabla ----------------------------------------------------.*/
+
+/* Tabla.*/
+
+table{ 
+  width:800px;
+  
+}
+
+.caja1,.caja2,.caja3{ 
+  padding-left: 0px;   /* izquierda.*/
+  padding-right: 0px;  /* derecha*/
+   
+ }
+
+ /* posiciòn de letra.*/
+h1{ 
+  position: relative;
+  bottom: 30px;
+  right: 32px;
+}
+
+h5{ 
+   position: relative;
+   bottom: 34px;
+   right: 12px;
+ }
+
+
+ .boton{ 
+   background-color: rgba(255, 166, 0, 0);
+   width: 120px;  /* ancho*/
+   height: 30px; /* altura.*/
+   display:inline-block ;
+  }
+  .boton{ 
+   color: white;
+ border: 3px solid white;
+border-radius: 33px;
+
+  }
+
+  .boton{ 
+  
+   position: relative;
+   right: 27px;
+
+  } 
